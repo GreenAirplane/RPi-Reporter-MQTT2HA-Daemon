@@ -1194,7 +1194,7 @@ def getNumberOfAvailableUpdates():
 
 # get our hostnames so we can setup MQTT
 getHostnames()
-sensor_name = 'rpi-{}'.format(rpi_hostname)
+#sensor_name = 'rpi-{}'.format(rpi_hostname)
 
 # get model so we can use it too in MQTT
 getDeviceModel()
